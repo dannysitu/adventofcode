@@ -18,7 +18,6 @@ def intcodeProgram(code):
       elif opcode == 99:
         return code[0]
       else:
-        print("ERROR: INVALID CODE " + str(opcode))
-        break
+        return -1
       
       x+=4
